@@ -14,7 +14,9 @@ Declare this line to make it a bash script: #! /bin/bash
 <br>
 #Filename for the report: REPORT_FILE="system_report.txt"
 <br>
+<br>
 At this point, declare the variable EMAIL to send the report to.
+<br>
 <br>
 #Create or clear the report file 
 <br>
