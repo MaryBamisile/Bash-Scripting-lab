@@ -54,17 +54,21 @@ echo "System report saved to: $REPORT_FILE"
 <br>
 #Send the report as an email attachment
 <br>
+<br>
 if command -v mail &> /dev/null; then
+<br>
 #Adding conditional statement to ensure the email is sent successfully
+<br>
 <br>
 echo "Hello G3W, please find the attached system report. Regards, Mary." | mail -s "Daily System Report" -A  "$REPORT_FILE" "$EMAIL" "$CC"
  <br>
+ <br>
  echo "Email sent to: $EMAIL $CC"
- <br>
+ <br> <br>
 else
- <br>
+ <br> <br>
  echo "Error: 'Mail' command not found. please install mailutils or mailx"
- <br>
+ <br> <br>
 fi
 <br>
 <br>
