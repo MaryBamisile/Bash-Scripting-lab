@@ -73,5 +73,8 @@ fi
 
 <h2>The step 3 has been configured for sending report to email</h2>
 
+![image](https://github.com/user-attachments/assets/c78ce17c-118b-4238-ad3e-4075f160334f)
+
+
 <h2>The final step was done by pushing the script from my terminal to this GITHUB repository</h2>
 
