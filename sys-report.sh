@@ -3,8 +3,8 @@
 #Filename for the report
 REPORT_FILE="system_report.txt"
 
-EMAIL="g3womenofficial@gmail.com"
-CC="bamisilemary@gmail.com"
+EMAIL="example@gmail.com"
+CC="example@gmail.com"
 #Create or clear the report file 
 echo "Generating system report......" >"$REPORT_FILE"
 echo ".............................." >> "$REPORT_FILE"
